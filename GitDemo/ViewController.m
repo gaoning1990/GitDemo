@@ -9,12 +9,13 @@
 #import "ViewController.h"
 #import "TestObj.h"
 #import "TestObjViewController.h"
+#import "TestNew.h"
 
 @interface ViewController ()
 
 @property(nonatomic,assign)int sum;
 
-
+@property(nonatomic,strong)TestNew * testNew;
 
 
 @end
