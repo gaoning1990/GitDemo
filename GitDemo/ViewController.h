@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TestObj.h"
+#import "TestObjViewController.h"
 
 @interface ViewController : UIViewController
+
+@property(nonatomic,strong)TestObj * testObj;
+@property(nonatomic,strong)TestObjViewController * testObjVC;
 
 
 @end

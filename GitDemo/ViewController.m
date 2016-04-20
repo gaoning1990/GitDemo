@@ -7,10 +7,15 @@
 //
 
 #import "ViewController.h"
+#import "TestObj.h"
+#import "TestObjViewController.h"
 
 @interface ViewController ()
 
 @property(nonatomic,assign)int sum;
+
+
+
 
 @end
 
@@ -19,11 +24,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor=[UIColor greenColor];
+    self.view.backgroundColor=[UIColor orangeColor];
     
     int a = 5;
     int b = 10;
     _sum = a+b;
+    
     
     NSLog(@"%d",_sum);
     // Do any additional setup after loading the view, typically from a nib.
