@@ -31,7 +31,7 @@
     int b = 10;
     _sum = a+b;
     
-    
+    NSLog(@"say goodBye");
     NSLog(@"%d",_sum);
     // Do any additional setup after loading the view, typically from a nib.
 }
